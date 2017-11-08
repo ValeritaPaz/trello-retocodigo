@@ -2,7 +2,7 @@ function createList (){
 	var container = document.getElementById("container");
 	var input = document.getElementById("input");
 	//container.removeChild(input);
-	input.style.display = "none";
+	//input.style.display = "none";
 
 	//var newDiv = document.createElement("div");
 	var newInput = document.createElement("input");
@@ -27,6 +27,9 @@ function createList (){
 		//input.style.display = "inline-block";
 		console.log(tasks);
 
+
+		//creando div de textarea	
+
 		var txtAreaDiv = document.createElement("div");
 		txtAreaDiv.setAttribute("class" , "tAdiv")
 		var spanDiv = document.createElement("span");
@@ -48,7 +51,7 @@ function createList (){
 			var contTxtArea = document.createElement("div")
 			var textAreaHidden = document.createElement("textarea");
 			textAreaHidden.setAttribute("cols", "20");
-			textAreaHidden.setAttribute("rows", "4");
+			textAreaHidden.setAttribute("rows", "1");
 			textAreaHidden.classList.add("class", "txtHidden");
 			var anadir = document.createElement("button");
 			var txtAnadir = document.createTextNode("Añadir");

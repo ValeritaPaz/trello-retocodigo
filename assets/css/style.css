@@ -113,15 +113,55 @@ nav {
 	font-size: 1em;
 }
 
+
+/*.boxtarea {
+	background: #e1e3e6;
+	display: inline-block;
+	margin-left: 20px;
+	border-radius: 3px;
+}*/
+.inputTitle {
+	margin: 5px;
+	display: block;
+	background: #d6d7da;
+	border: 1px solid gray;
+	outline: 0 none;
+}
+
+.safeBtn {
+	background: #17a639;
+	color: #fff;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 3px 8px;
+}
 .tAdiv {
 	background: #e1e3e6;
 	width: 200px;
 	height: 100px;
+	margin-left: 20px;
+	margin-top: 10px;
 }
-
 .spanOfDiv {
 	background: #d6d7da;
 	width: 190px;
+	display: block;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-radius: 5px;	
+}
+
+.addBtn {
+	background: #17a639;
+	color: #fff;
+	padding: 3px 8px;
+}
+
+.botonAnadir {
+	background: #17a639;
+	color: #fff;
+	padding: 3px 8px;
 }
 
 /*color de trello
