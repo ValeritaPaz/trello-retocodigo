@@ -1,11 +1,12 @@
+/*estilos heredables al documento*/
 body {
 	background: #0c68c1;
 	margin: 0 auto;
 	font-family: helvetica;
 }
-
+/*estilos de la barra de navegacion*/
 nav {
-	background: #005ca8;
+	background: #0a59a4;
 	padding: 2px;
 }
 .list1 {
@@ -58,12 +59,11 @@ nav {
 	display: inline-block;
 	float: right;
 	padding-right: 3em;
-	padding-top: 0.8em;
+	padding-top: 0.3em;
 }
 .fa-plus, .fa-info, .fa-bell-o {
 	background: #669dcb;
 	padding: 3px 5px;
-	vertical-align: sub;
 }
 .fa-info {
 	margin: 0 1em;
@@ -104,65 +104,118 @@ nav {
 	padding: 0 10px;
 }
 
+/*estilos boton anadir una lista*/
 .azul {
-	background: blue;
+	background: #0a59a4;
 	margin-left: 20px;
 	border: none;
-	padding: 10px 20px;
+	border-radius: 2px;
+	padding: 10px 35px;
 	color: #fff;
 	font-size: 1em;
+	cursor: pointer;
 }
-
-
-/*.boxtarea {
-	background: #e1e3e6;
+.azul:hover {
+	background: #084987;
+}
+/*estilo del div con el primer input*/
+.firstDiv {
 	display: inline-block;
-	margin-left: 20px;
-	border-radius: 3px;
-}*/
-.inputTitle {
-	margin: 5px;
-	display: block;
-	background: #d6d7da;
-	border: 1px solid gray;
-	outline: 0 none;
-}
-
-.safeBtn {
-	background: #17a639;
-	color: #fff;
-	margin-left: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	padding: 3px 8px;
-}
-.tAdiv {
 	background: #e1e3e6;
-	width: 200px;
-	height: 100px;
-	margin-left: 20px;
-	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 2px;
 }
-.spanOfDiv {
+
+.input1 {
 	background: #d6d7da;
-	width: 190px;
 	display: block;
-	margin-left: 8px;
-	margin-right: 8px;
-	border-radius: 5px;	
+	border: 1px solid #b1b1b2;
+	padding: 10px;
+	margin: 5px;
+	margin-bottom: 0;
+	border-radius: 2px;
 }
 
-.addBtn {
+.saveButton {
+	margin: 5px;
+	border: none;
+	border-radius: 2px;
 	background: #17a639;
 	color: #fff;
-	padding: 3px 8px;
+	font-weight: bolder;
+	padding: 7px 15px;
 }
 
-.botonAnadir {
-	background: #17a639;
-	color: #fff;
-	padding: 3px 8px;
+.fa-times {
+	color: #4e4e4e;
+	margin-left: 70px;
 }
 
-/*color de trello
-#ccdeed*/
+/*estilos de la lista*/
+.cardBox {
+	background: #d6d7da;
+	display: inline-block;
+	border-radius: 2px;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.cardBox h6 {
+	margin: 3px;
+	font-size: .9em;
+	display: block;
+	padding-bottom: 5px;
+}
+.ancCard {
+	font-size: 15px;
+    margin-left: 2px;
+    text-decoration: none;
+    color: gray;
+    display: block;
+    padding-bottom: 5px;
+}
+.ancCard:hover {
+	text-decoration: underline;
+	color: #4e4e4e;
+}
+
+/*estilos del div teaxtarea*/
+.tAspace {
+	background: #d6d7da;
+	display: inline-block;
+	border-radius: 2px;
+	vertical-align: top;
+}
+.tAtitle {
+	margin: 5px;
+	font-size: .9em;
+}
+.mainTxtA {
+	display: block;
+	margin: 5px;
+
+	padding: 0;
+	border-radius: 2px;
+	border: none;
+}
+.addButton {
+	margin: 5px;
+	padding: 0px;
+	border: none;
+    border-radius: 2px;
+    background: #17a639;
+    color: #fff;
+    font-weight: bolder;
+	padding: 7px 15px;
+}
+.ofSpan {
+	background: #fff;
+	margin: 5px;
+	padding: 2px 0px;
+	border-radius: 2px;
+}
+.ofSpan:hover {
+	background: #eceff0;
+}
+.ofSpan p {
+	margin: 3px;
+}
